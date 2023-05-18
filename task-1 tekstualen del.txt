@@ -1,0 +1,37 @@
+Test odgovoreni prasanja od Martin Naumoski po Node.JS backend
+
+1.Што е World Wide Web?
+-	World wibe web ili www. stoi na sekoj veb sajt koj e javen i toa znaci deka sekoj korisnik na internet ima pristap to toj veb sajt. Inaku world wibe web i izmislen vo Cern, Svajcarija za polesna mrezna komunikacija na korisnicite ili naucnicite sto go izmislile, za polesno da razmenuvaat podatoci.
+
+2.Какви пораки се испраќаат преку HTTP помеѓу клиентот и серверот?	
+-	Preku HTTP se isprakjaat requests i response, sto znaci koga klientot ke napravi request, ima response od serverot so odreden tip na podatoci koi sto se barale na prvo mesto.
+
+3.Што е Node.js, а што Express.js?
+-	Node.js e besplaten softver za kreiranje na web aplikacii preku koi sto rabotat nadvor od prelistuvacot ili lokalno na nivnata(nasata) masina.
+-	Express.js e biblioteka sto se koristi za kreiranje na server vo node.js za kreiranje na backend na web aplikacija.
+
+4.Што е MVC архитектура и што е обврската на нејзините составни делови?
+-	MVC arhitektura e struktura na fajlovi i folderi preku koi se postavuva odredena aplikacija na koi sto imame dobra preglednost kade ni se naogjaat i site funkcionalnosti na aplikacijata. MVC arhitekturata ima handler (handler folderot e sto se koristi za smestuvanje na funkcionalniot del na aplikacijata), view (ovde e prikazan frontend-ot na aplikacijata, ova vazi dokolku koristime EJS), public (public se koristi za prikazuvanje na detalniot izgleda na aplikacijata so koristenje na CSS, i isto taka moze da se koristi ovoj folder za frontend skripti), pkg(e package folder kade sto gi smestuvame databazata i modelite na semite vo databazata) 
+
+5. Што се рути?
+-	Ruti se middleware-s preku koi sto brisime, dodavame, listame, azurirame podatoci preku aplikacijata vo databazata.
+
+6.Што се модули? (бонус: какви типови на модули има?)
+- 	Moduli se ednostavna ili kompleksna organizirana struktura vo node.js koj sto sekoj modul ima svoja funkcionalnost.
+
+7.Што е веб сервис? Дадете пример за еден веб сервис.
+-	 Veb servis e softver sto koga preku internet klientot koga ke prati request, ke dobie response a za toj sistem e odgovoren veb servisot.
+
+8.Објаснете што е и како функционира JWT автентикација?
+-	JWT znaci Json Web Token i se koristi za identefikacija na korisnici vo odredena aplikacija povrzana so data baza. Funkcionira na nacin:
+primer: koga korisnik ke napravi profil na odredena veb aplikacija mu se isprakja veb token edinstven token preku koj se zapisuva vo data bazata, pritoa koga sleden pat korisnikot ke proba da se logira na taa aplikacija ke mora da go dobie toj edinstven token inaku pristapot ke mu bide zabranet.
+
+9.Што е MongoDB? Објаснете накратко за каков софтвер станува збор?
+-	MongoDB e nerelaciona data baza koja podrzuva json tip na datoteki preku koi sto korisnikot moze da manipulira so odredena tehnologija na istite.
+
+10.Што е разликата помеѓу MongoDB и Mongoose?
+-	Vo node.js Mongoose se koristi na polesno kreiranje na model sema od strana na programerite za  da go postavat Modelot vo MongoDB databazata.
+
+11. Што е разликата помеѓу Synchronous (Сихрона) i Аsynchronous (Асинхрона) функција во Node.js
+-	Sinhrona funkcija vo node.js znaci deka kodot napisan se izvrsuva red po red ili linija po linija.
+-	Asinhrona funkcija vo node.js znaci deka poveke funkcii mozat da se povikaat i izvrsat vo isti moment sto znaci deka kodot nema da ima prepreki i zastoi vo samata aplikacija.
